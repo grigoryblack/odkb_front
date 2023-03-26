@@ -1,0 +1,115 @@
+.header_container{
+    width: 100vw;
+    height: 84px;
+    border-bottom: 3px solid #D3D3D3;
+    display: flex;
+    justify-content: center;
+}
+
+.content-container{
+    max-width: 1720px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.logo_header{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    color: #0065FC;
+    text-decoration: none;
+}
+
+
+.dropdown{
+    margin-top: 25px;
+    width: 180px;
+    position: relative;
+    display: flex;
+}
+
+.dropdown .dropdown-btn{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 18px;
+
+    color: #0065FC;
+    cursor: pointer;
+    position: relative;
+}
+
+.dropdown .dropdown-btn::before{
+    content: '';
+    bottom: -4px;
+    left: -2px;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #0065FC;
+    transition: 0.2s;
+}
+
+.dropdown .dropdown-btn:hover:before{
+    width: 103%;
+}
+
+.dropdown .dropdown-content{
+    position: absolute;
+    top: 260%;
+    padding: 15px;
+    background-color: #fff;
+    boxbox-shadow: 0px 8px 24px rgba(129, 135, 189, 0.15);
+    border-radius: 5px;
+    border:1px solid #D3D3D3;
+
+    z-index: 2;
+
+    width: 50px;
+    height: 20px;
+    left: -5px;
+    cursor: pointer;
+}
+
+.title_dropdown{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+
+    color: #000000;
+
+}
+
+.exit_button{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    position: relative;
+
+    color: #FF0000;
+
+    background-color: transparent;
+    border:none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+
+    cursor: pointer;
+}
+
+.exit_button::before {
+    content: '';
+    bottom: -2px;
+    left: -2px;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: red;
+    transition: 0.2s;
+}
+.exit_button:hover:before{
+    width: 110%;
+}

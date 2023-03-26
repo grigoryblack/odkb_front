@@ -1,0 +1,112 @@
+.initial_inspection_container{
+    width: 100vw;
+    background-color: #EEF3FF;
+}
+
+.initial_container_content{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1610px;
+    width: 100%;
+    background-color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+
+    margin-top: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    cursor:default;
+}
+
+.initial_container_title{
+    font-size: 18px;
+    font-weight: 500;
+    color: #0065FC;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.initial_container_title_main{
+    font-size: 25px;
+    font-weight: 600;
+    color: #0065FC;
+    margin-top: 20px;
+
+}
+
+.information_container{
+    display: flex;
+    justify-content: space-between;
+}
+.section_container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.margin_text_filed{
+    width: 300px;
+    margin-top: 20px;
+}
+
+.input_style_card{
+    width: 300px;
+    margin-top: 20px;
+}
+
+.notification_hiv{
+    font-size: 14px;
+    margin-top: 7px;
+    background-color: #FF7179;
+    width: 300px;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.title_card_container{
+    margin-top: 20px;
+    color: #0065FC;
+}
+
+.subtitle_card_container{
+    color: #0065FC;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.margin_text_filed{
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.help_text{
+    margin-right: 5px;
+}
+
+.speedDial{
+    position: fixed;
+    top: 85%;
+    left: 81%;
+}
+
+.edit_mode_notification{
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #1976D2;
+    width: 262px;
+
+    font-size: 15px;
+    font-weight: 500;
+    position: fixed;
+    top: 80%;
+    left: 79%;
+}
